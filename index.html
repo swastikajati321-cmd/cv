@@ -1,265 +1,355 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Swastika Jati Portfolio</title>
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css">
+    <title>Swastika Jati | Portfolio</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
 </head>
 
 <body>
 
-  <!-- Header -->
+<!-- ================= HEADER ================= -->
 
-  <header>
+<header class="header">
 
-    <nav class="navbar">
+    <div class="container nav-container">
 
-      <div class="logo">Swastika Jati</div>
+        <div class="brand-logo">
+            Swastika Jati
+        </div>
 
-      <div class="nav-menu">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#education">Education</a>
-        <a href="#contact">Contact</a>
-      </div>
+        <nav class="navigation">
 
-    </nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
 
-  </header>
-
-  <!-- Hero Section -->
-
-  <section class="hero" id="about">
-
-    <div class="hero-content">
-
-      <h3>Hello, I'm</h3>
-
-      <h1>Swastika<br>Jati</h1>
-
-      <p>
-        Enthusiastic Diploma Computer Engineering student with strong
-        foundation in Java, DSA, Python, C, and SQL, seeking an
-        entry-level role.
-      </p>
-
-      <div class="hero-buttons">
-        <a href="#contact" class="btn primary-btn">Contact Me</a>
-        <a href="#projects" class="btn secondary-btn">View Projects</a>
-      </div>
+        </nav>
 
     </div>
 
-    <div class="hero-image">
-      <img src="WhatsApp Image 2026-05-13 at 20.32.18.jpeg" alt="Swastika Jati">
-    </div>
+</header>
 
-  </section>
+<!-- ================= HERO SECTION ================= -->
 
-  <!-- Skills -->
+<section class="home-section" id="home">
 
-  <section id="skills">
+    <div class="container home-wrapper">
 
-    <h2 class="section-title">Technical Skills</h2>
+        <div class="home-text">
 
-    <div class="grid">
+            <h4>Hello, I'm</h4>
 
-      <div class="card">
-        <i class="fab fa-java"></i>
-        <h3>Programming</h3>
-        <p>Java, Python, C, SQL and Data Structures & Algorithms.</p>
-      </div>
+            <h1>Swastika Jati</h1>
 
-      <div class="card">
-        <i class="fab fa-html5"></i>
-        <h3>Web Development</h3>
-        <p>HTML, CSS, JavaScript and responsive website design.</p>
-      </div>
+            <p>
+                Enthusiastic Diploma Computer Engineering student
+                with strong foundation in Java, DSA, Python, C,
+                SQL, HTML and CSS.
+            </p>
 
-      <div class="card">
-        <i class="fas fa-code"></i>
-        <h3>Tools</h3>
-        <p>Git, VS Code and modern development tools.</p>
-      </div>
+            <div class="home-buttons">
 
-    </div>
+                <a href="#contact" class="btn btn-primary">
+                    Hire Me
+                </a>
 
-  </section>
+                <a href="#projects" class="btn btn-outline">
+                    My Projects
+                </a>
 
-  <!-- Projects -->
+            </div>
 
-  <section id="projects">
+        </div>
 
-    <h2 class="section-title">Projects</h2>
+        <div class="home-image">
 
-    <div class="grid">
+            <img src="./assets/images/profile.jpg"
+            alt="Swastika Jati">
 
-      <div class="card">
-        <i class="fas fa-lock"></i>
-        <h3>Password Manager</h3>
-        <p>Password Manager project developed using Java.</p>
-      </div>
-
-      <div class="card">
-        <i class="fas fa-gamepad"></i>
-        <h3>Snake Game</h3>
-        <p>Snake game using Python, Flask, JavaScript and CSS.</p>
-      </div>
+        </div>
 
     </div>
 
-  </section>
+</section>
 
-  <!-- Education -->
+<!-- ================= ABOUT SECTION ================= -->
 
-  <section id="education">
+<section class="about-section" id="about">
 
-    <h2 class="section-title">Education</h2>
+    <div class="container">
 
-    <div class="timeline">
+        <h2 class="section-heading">
+            About Me
+        </h2>
 
-      <div class="timeline-box">
-        <h3>Diploma in Computer Engineering</h3>
-        <p>Techno Main Salt Lake</p>
-        <span>(Oct 2023 - Jul 2026)</span>
-      </div>
+        <div class="about-box">
 
-      <div class="timeline-box">
-        <h3>Higher Secondary (12th)</h3>
-        <p>Shibpur Bhabani Balika Vidyalaya</p>
-        <span>Percentage: 85%</span><br>
-        <span>(2021 - 2023)</span>
-      </div>
+            <p>
+                I am a passionate Computer Engineering student
+                interested in software development and web design.
+                I enjoy creating responsive websites and learning
+                new technologies.
+            </p>
 
-      <div class="timeline-box">
-        <h3>Secondary (10th)</h3>
-        <p>Shibpur Bhabani Vidyalaya</p>
-        <span>Percentage: 80%</span><br>
-        <span>(2020 - 2021)</span>
-      </div>
+        </div>
 
     </div>
 
-  </section>
+</section>
 
-  <!-- Languages -->
+<!-- ================= SKILLS SECTION ================= -->
 
-  <section id="languages">
+<section class="skills-section" id="skills">
 
-    <h2 class="section-title">Languages</h2>
+    <div class="container">
 
-    <div class="grid">
+        <h2 class="section-heading">
+            Technical Skills
+        </h2>
 
-      <div class="card">
-        <i class="fas fa-language"></i>
-        <h3>English</h3>
-      </div>
+        <div class="card-grid">
 
-      <div class="card">
-        <i class="fas fa-language"></i>
-        <h3>Hindi</h3>
-      </div>
+            <div class="skill-card">
 
-      <div class="card">
-        <i class="fas fa-language"></i>
-        <h3>Bengali</h3>
-      </div>
+                <i class="fab fa-java"></i>
 
-    </div>
+                <h3>Programming</h3>
 
-  </section>
+                <p>
+                    Java, Python, C, SQL, DSA
+                </p>
 
-  <!-- Contact -->
+            </div>
 
-  <section id="contact">
+            <div class="skill-card">
 
-    <h2 class="section-title">Contact Me</h2>
+                <i class="fab fa-html5"></i>
 
-    <div class="contact-wrapper">
+                <h3>Frontend</h3>
 
-      <form class="contact-form">
+                <p>
+                    HTML, CSS, JavaScript
+                </p>
 
-        <input type="text" placeholder="Your Name">
+            </div>
 
-        <input type="email" placeholder="Your Email">
+            <div class="skill-card">
 
-        <textarea placeholder="Write your message..."></textarea>
+                <i class="fas fa-code"></i>
 
-        <button type="submit">Send Message</button>
+                <h3>Tools</h3>
 
-      </form>
+                <p>
+                    Git, VS Code
+                </p>
 
-      <div class="contact-details">
+            </div>
 
-        <p>
-          <i class="fas fa-user"></i>
-          Swastika Jati
-        </p>
-
-        <p>
-          <i class="fas fa-location-dot"></i>
-          West Bengal, India
-        </p>
-
-        <p>
-          <i class="fas fa-envelope"></i>
-          swastika.jati321@gmail.com
-        </p>
-
-        <p>
-          <i class="fas fa-phone"></i>
-          9051409180
-        </p>
-
-      </div>
+        </div>
 
     </div>
 
-  </section>
+</section>
 
-  <!-- Declaration -->
+<!-- ================= PROJECTS SECTION ================= -->
 
-  <section id="declaration">
+<section class="project-section" id="projects">
 
-    <h2 class="section-title">Declaration</h2>
+    <div class="container">
 
-    <p class="declaration-text">
-      I hereby declare that the above information is true
-      to the best of my knowledge.
+        <h2 class="section-heading">
+            Projects
+        </h2>
+
+        <div class="card-grid">
+
+            <div class="project-card">
+
+                <i class="fas fa-lock"></i>
+
+                <h3>Password Manager</h3>
+
+                <p>
+                    Password Manager using Java.
+                </p>
+
+            </div>
+
+            <div class="project-card">
+
+                <i class="fas fa-gamepad"></i>
+
+                <h3>Snake Game</h3>
+
+                <p>
+                    Snake Game using Python, Flask,
+                    JavaScript and CSS.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= EDUCATION SECTION ================= -->
+
+<section class="education-section" id="education">
+
+    <div class="container">
+
+        <h2 class="section-heading">
+            Education
+        </h2>
+
+        <div class="education-wrapper">
+
+            <div class="education-card">
+
+                <h3>Diploma in Computer Engineering</h3>
+
+                <p>Techno Main Salt Lake</p>
+
+                <span>
+                    Oct 2023 - Jul 2026
+                </span>
+
+            </div>
+
+            <div class="education-card">
+
+                <h3>Higher Secondary (12th)</h3>
+
+                <p>
+                    Shibpur Bhabani Balika Vidyalaya
+                </p>
+
+                <span>
+                    Percentage : 85%
+                </span>
+
+            </div>
+
+            <div class="education-card">
+
+                <h3>Secondary (10th)</h3>
+
+                <p>
+                    Shibpur Bhabani Vidyalaya
+                </p>
+
+                <span>
+                    Percentage : 80%
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACT SECTION ================= -->
+
+<section class="contact-section" id="contact">
+
+    <div class="container">
+
+        <h2 class="section-heading">
+            Contact Me
+        </h2>
+
+        <div class="contact-container">
+
+            <form class="contact-form">
+
+                <input type="text"
+                placeholder="Your Name">
+
+                <input type="email"
+                placeholder="Your Email">
+
+                <textarea
+                placeholder="Your Message"></textarea>
+
+                <button type="submit">
+                    Send Message
+                </button>
+
+            </form>
+
+            <div class="contact-info">
+
+                <p>
+                    <i class="fas fa-user"></i>
+                    Swastika Jati
+                </p>
+
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    swastika.jati321@gmail.com
+                </p>
+
+                <p>
+                    <i class="fas fa-phone"></i>
+                    9051409180
+                </p>
+
+                <p>
+                    <i class="fas fa-location-dot"></i>
+                    West Bengal, India
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <p>
+        © 2026 Swastika Jati | All Rights Reserved
     </p>
 
-  </section>
+    <div class="footer-icons">
 
-  <!-- Footer -->
+        <a href="#">
+            <i class="fab fa-github"></i>
+        </a>
 
-  <footer>
+        <a href="#">
+            <i class="fab fa-instagram"></i>
+        </a>
 
-    <p>© 2026 Swastika Jati. All Rights Reserved.</p>
-
-    <div class="social-icons">
-
-      <a href="#" target="_blank">
-        <i class="fab fa-github"></i>
-      </a>
-
-      <a href="#" target="_blank">
-        <i class="fab fa-instagram"></i>
-      </a>
-
-      <a href="#" target="_blank">
-        <i class="fab fa-linkedin"></i>
-      </a>
+        <a href="#">
+            <i class="fab fa-linkedin"></i>
+        </a>
 
     </div>
 
-  </footer>
+</footer>
 
 </body>
 </html>
